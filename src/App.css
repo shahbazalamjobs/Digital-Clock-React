@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.digital-clock {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.digital-clock h2 {
+  margin-bottom: 10px;
+}
+
+.digital-clock .time {
+  font-size: 24px;
+}
+
+.digital-clock .time span {
+  padding: 0 5px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
